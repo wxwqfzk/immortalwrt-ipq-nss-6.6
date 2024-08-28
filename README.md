@@ -1,12 +1,19 @@
 <img src="https://avatars.githubusercontent.com/u/53193414?s=200&v=4" alt="logo" width="200" height="200" align="right">
+
 更新 immortalwrt：
 
 git remote add upstream https://github.com/immortalwrt/immortalwrt
+
 git remote fetch upstream/master
+
 git rebase upstream/master
+
 然后打开 https://github.com/qosmio/openwrt-ipq/commits/qualcommax-6.x-nss-wifi/ 对照commit列表找到上游新增的commit，点击右侧复制 commit 号
+
 然后运行:
+
 git cherry-pick <commit 号>
+
 
 
 # Project ImmortalWrt
